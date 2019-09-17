@@ -1,0 +1,19 @@
+* {
+    font: 400 14px/10px "nutanix_soft", sans-serif;
+    text-rendering: optimizeSpeed;
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
+  
+  * {
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html {
+    overflow: hidden;
+    background: #F2F4F6;
+  }

@@ -1,19 +1,100 @@
-* {
-    font: 400 14px/10px "nutanix_soft", sans-serif;
+/* * { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }
+* * * * * * * { background-color: rgba(255,0,0,.2); }
+* * * * * * * * { background-color: rgba(0,255,0,.2); }
+* * * * * * * * * { background-color: rgba(0,0,255,.2); } */
+
+*,*::before,*::after {
     text-rendering: optimizeSpeed;
     text-rendering: optimizeLegibility;
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  * {
+* {
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
   
-  html {
+html {
     overflow: hidden;
     background: #F2F4F6;
-  }
+}
+
+@font-face{
+    font-family: ntnxthin;
+    src: url(./fonts/NutanixSoft-Thin.otf);
+}
+
+@font-face{
+  font-family: ntnxregular;
+  src: url(./fonts/NutanixSoft-Regular.otf);
+}
+
+@font-face{
+  font-family: ntnxsemi-bold;
+  src: url(./fonts/NutanixSoft-Semibold.otf);
+}
+
+@font-face{
+  font-family: ntnxmedium;
+  src: url(./fonts/NutanixSoft-Medium.otf);
+}
+
+body {
+  font: 500 14px/10px "ntnxregular", sans-serif;
+}
+
+.header {
+  height: 60px;
+  background-color: #22272E;
+  display: flex;
+}
+
+.hamburger {
+  margin-left: 20px;
+}
+
+input {
+  padding: 10px 10px;
+  width: 300px;
+  height: 32px;
+  border-radius: 4px;
+  background-color: #37414B;
+  border: none;
+  margin: auto;
+  margin-left: 20px;
+  font-family: "ntnxmedium";
+  font-size: 14px;
+  color: white;
+}
+
+.logo {
+  margin: auto;
+}
+
+.bell {
+  margin-right: 20px;
+}
+
+.task {
+  margin-right: 20px;
+}
+
+.username {
+  margin: 25px 5px 25px 0px;
+  font: 500 14px/10px "ntnxmedium";
+  color: #9AA5B5;
+}
+
+.chevron {
+  margin-right: 20px;
+}

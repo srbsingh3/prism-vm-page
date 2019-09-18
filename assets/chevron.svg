@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Chevron</title>
+    <desc>Created with Sketch.</desc>
+    <g id="✂️-Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Page-With-Table---Actions" transform="translate(-1254.000000, -29.000000)" stroke="#7C8D9F" stroke-width="1.5">
+            <g id="Header">
+                <g id="Right" transform="translate(1026.000000, 20.000000)">
+                    <g id="User" transform="translate(146.996648, 5.000000)">
+                        <polyline id="Chevron" transform="translate(85.183040, 6.500000) scale(-1, 1) rotate(90.000000) translate(-85.183040, -6.500000) " points="83.6830398 4 86.6830398 6.5 83.6830398 9"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

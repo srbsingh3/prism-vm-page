@@ -190,9 +190,20 @@ input {
 
 /* Right View Start */
 
-.button-bar {
-  /* display: grid; */
+.right {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.button-bar-1 {
+  display: flex;
   margin: 20px;
+}
+
+.button-bar-2 {
+  display: flex;
+  margin: 20px;
+  justify-content: flex-end;
 }
 
 button {
@@ -203,9 +214,18 @@ button {
   border: none;
   border-radius: 4px;
   padding: 11px 15px 11px 15px;
+  margin-right: 10px;
+}
+
+.empty {
+  background: none;
+  color: #22272E;
+  padding: 0;
+  margin-right: 20px;
 }
 
 .actions {
   background-color: white;
   color: #22272E;
+  margin-right: 0;
 }

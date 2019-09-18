@@ -190,6 +190,8 @@ input {
 
 /* Right View Start */
 
+/* Button Bar Start */
+
 .right {
   display: grid;
   grid-template-columns: 30% 70%;
@@ -229,3 +231,5 @@ button {
   color: #22272E;
   margin-right: 0;
 }
+
+/* Button Bar End */

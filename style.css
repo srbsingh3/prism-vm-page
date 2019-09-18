@@ -51,7 +51,10 @@ html {
 
 body {
   font: 500 14px/10px "ntnxregular", sans-serif;
+  color: #22272E;
 }
+
+/* Header Start */
 
 .header {
   height: 60px;
@@ -118,3 +121,61 @@ input {
 }
 
 /* Header End */
+
+/* Main Body Start */
+
+/* Left Menu Start */
+
+.main {
+  display: grid;
+  grid-template-columns: 240px auto;
+}
+
+.left {
+  background-color: white;
+  height: 100vh;
+}
+
+.headline {
+  font: 29px/20px "ntnxthin";
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.subtext {
+  font: 14px/10px "ntnxregular";
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #9AA5B5;
+}
+
+.divider {
+  background-color: #D5DAE0;
+  width: 32px;
+  height: 1px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.side-menu {
+  color: #627386;
+  font: 14px/10px "ntnxmedium";
+  margin-left: 20px;
+  margin-top: 22px;
+}
+
+.selected {
+  background: #F4FBFF;
+  box-shadow: inset -2px 0 0 0 #22A5F7;
+  height: 32px;
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.selected-menu {
+  font: 14px/10px "ntnxmedium";
+  margin-left: 20px;
+}
+
+/* left Menu End */

@@ -116,6 +116,10 @@ input {
   color: #9AA5B5;
 }
 
+.username:hover {
+  color: white;
+}
+
 .chevron {
   margin-right: 20px;
 }
@@ -164,6 +168,10 @@ input {
   margin-top: 22px;
 }
 
+.side-menu:hover {
+  color: #22A5F7;
+}
+
 .selected {
   background: #F4FBFF;
   box-shadow: inset -2px 0 0 0 #22A5F7;
@@ -179,3 +187,6 @@ input {
 }
 
 /* left Menu End */
+
+/* Right View Start */
+

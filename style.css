@@ -56,7 +56,25 @@ body {
 .header {
   height: 60px;
   background-color: #22272E;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header1 {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header3 {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hamburger {

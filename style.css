@@ -8,6 +8,10 @@
 * * * * * * * * { background-color: rgba(0,255,0,.2); }
 * * * * * * * * * { background-color: rgba(0,0,255,.2); } */
 
+div {
+  border: 1px solid red;
+}
+
 *,*::before,*::after {
     text-rendering: optimizeSpeed;
     text-rendering: optimizeLegibility;
@@ -195,16 +199,17 @@ input {
 .right {
   display: grid;
   grid-template-columns: 30% 70%;
+  grid-template-rows: 32px 20px;
 }
 
 .button-bar-1 {
   display: flex;
-  margin: 20px;
+  padding: 20px;
 }
 
 .button-bar-2 {
   display: flex;
-  margin: 20px;
+  padding: 20px;
   justify-content: flex-end;
 }
 
@@ -241,8 +246,8 @@ button {
 /* Pagination Bar Start */
 
 .pagination {
-  margin: 20px;
-  margin-top: 40px;
+  padding: 20px;
+  padding-top: 40px;
   grid-row: 2/3;
   display: flex;
 }

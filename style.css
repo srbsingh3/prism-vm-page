@@ -195,20 +195,17 @@ input {
 .right {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 32px 16px;
 }
 
 .button-bar-1 {
   display: flex;
   margin: 20px;
-  /* grid-column: 1/2; */
 }
 
 .button-bar-2 {
   display: flex;
   margin: 20px;
   justify-content: flex-end;
-  /* grid-column: 2/3; */
 }
 
 button {
@@ -256,3 +253,6 @@ button {
 }
 
 /* Pagination Bar End */
+
+/* Table Start */
+

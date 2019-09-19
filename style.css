@@ -201,16 +201,14 @@ input {
 .button-bar-1 {
   display: flex;
   margin: 20px;
-  grid-column: 1/2;
-  grid-row: 1/2;
+  /* grid-column: 1/2; */
 }
 
 .button-bar-2 {
   display: flex;
   margin: 20px;
   justify-content: flex-end;
-  grid-column: 1/2;
-  grid-row: 1/2;  
+  /* grid-column: 2/3; */
 }
 
 button {
@@ -247,7 +245,7 @@ button {
 
 .pagination {
   margin: 20px;
-  margin-top: 200px;
+  margin-top: 40px;
   grid-row: 2/3;
   display: flex;
 }

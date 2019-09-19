@@ -1,4 +1,4 @@
-/* * { background-color: rgba(255,0,0,.2); }
+* { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
 * * * * { background-color: rgba(255,0,255,.2); }
@@ -6,7 +6,7 @@
 * * * * * * { background-color: rgba(255,255,0,.2); }
 * * * * * * * { background-color: rgba(255,0,0,.2); }
 * * * * * * * * { background-color: rgba(0,255,0,.2); }
-* * * * * * * * * { background-color: rgba(0,0,255,.2); } */
+* * * * * * * * * { background-color: rgba(0,0,255,.2); }
 
 *,*::before,*::after {
     text-rendering: optimizeSpeed;
@@ -195,17 +195,22 @@ input {
 .right {
   display: grid;
   grid-template-columns: 30% 70%;
+  grid-template-rows: 32px 16px;
 }
 
 .button-bar-1 {
   display: flex;
   margin: 20px;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .button-bar-2 {
   display: flex;
   margin: 20px;
   justify-content: flex-end;
+  grid-column: 1/2;
+  grid-row: 1/2;  
 }
 
 button {
@@ -239,6 +244,13 @@ button {
 /* Button Bar End */
 
 /* Pagination Bar Start */
+
+.pagination {
+  margin: 20px;
+  margin-top: 200px;
+  grid-row: 2/3;
+  display: flex;
+}
 
 .pagination-1 {
   font: 14px/10px "ntnxsemi-bold";

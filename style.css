@@ -8,9 +8,9 @@
 * * * * * * * * { background-color: rgba(0,255,0,.2); }
 * * * * * * * * * { background-color: rgba(0,0,255,.2); } */
 
-div {
+/* div {
   border: 1px solid red;
-}
+} */
 
 *,*::before,*::after {
     text-rendering: optimizeSpeed;
@@ -199,7 +199,7 @@ input {
 .right {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 32px 20px;
+  grid-template-rows: 32px 16px;
 }
 
 .button-bar-1 {
@@ -250,13 +250,28 @@ button {
   padding-top: 40px;
   grid-row: 2/3;
   display: flex;
-}
-
-.pagination-1 {
   font: 14px/10px "ntnxsemi-bold";
-  display: flex;
 }
 
+.pagination-2 {
+  font: 14px/10px "ntnxmedium";
+  color: #627386;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  padding-top: 40px;
+  grid-row: 2/3;
+  align-items: center;
+}
+
+.divider-2 {
+  background-color: #D5DAE0;
+  width: 1px;
+  height: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
 /* Pagination Bar End */
 
 /* Table Start */

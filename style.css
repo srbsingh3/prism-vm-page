@@ -8,9 +8,9 @@
 * * * * * * * * { background-color: rgba(0,255,0,.2); }
 * * * * * * * * * { background-color: rgba(0,0,255,.2); } */
 
-div {
+/* div {
   border: 1px solid red;
-}
+} */
 
 *,*::before,*::after {
     text-rendering: optimizeSpeed;

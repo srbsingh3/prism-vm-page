@@ -8,9 +8,9 @@
 * * * * * * * * { background-color: rgba(0,255,0,.2); }
 * * * * * * * * * { background-color: rgba(0,0,255,.2); } */
 
-/* div {
+div {
   border: 1px solid red;
-} */
+}
 
 *,*::before,*::after {
     text-rendering: optimizeSpeed;
@@ -199,7 +199,7 @@ input {
 .right {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 32px 16px;
+  grid-template-rows: 32px 16px auto;
 }
 
 .button-bar-1 {
@@ -278,3 +278,6 @@ button {
 
 /* Table Start */
 
+.ntnxtable {
+  border: 1px solid #37414B;
+}

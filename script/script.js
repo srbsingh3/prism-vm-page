@@ -9,7 +9,7 @@ const tableItems = {
 
 const arrayItems = ['1', '2', '3'];
 
-arrayItems.map(item => $('.table').append(`<tr><td>${item}</td></tr>`));
+arrayItems.map(item => $('.ntnxtable').append(`<tr><td>${item}</td></tr>`));
 
 console.log("test");
 

@@ -8,9 +8,9 @@
 * * * * * * * * { background-color: rgba(0,255,0,.2); }
 * * * * * * * * * { background-color: rgba(0,0,255,.2); } */
 
-div {
+/* div {
   border: 1px solid red;
-}
+} */
 
 *,*::before,*::after {
     text-rendering: optimizeSpeed;
@@ -29,7 +29,7 @@ div {
 }
   
 html {
-    /* overflow: hidden; */
+    overflow: hidden;
     background: #F2F4F6;
 }
 
@@ -142,6 +142,7 @@ input {
 .left {
   background-color: white;
   height: 100vh;
+  overflow: hidden;
 }
 
 .headline {
@@ -200,6 +201,8 @@ input {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 32px 16px auto;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .button-bar-1 {
@@ -247,7 +250,7 @@ button {
 
 .pagination-1 {
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   /* padding-top: 40px; */
   display: flex;
   align-items: center; 
@@ -262,7 +265,7 @@ button {
   align-items: center;
   /* align-items: flex-end; */
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   /* padding-top: 40px; */
   /* align-items: center; */
 }

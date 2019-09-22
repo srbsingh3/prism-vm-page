@@ -29,7 +29,7 @@
 }
   
 html {
-    overflow: hidden;
+    /* overflow: hidden; */
     background: #F2F4F6;
 }
 
@@ -245,11 +245,12 @@ button {
 
 /* Pagination Bar Start */
 
-.pagination {
+.pagination-1 {
   padding: 20px;
-  padding-top: 40px;
-  grid-row: 2/3;
+  margin-top: 20px;
+  /* padding-top: 40px; */
   display: flex;
+  align-items: center; 
   font: 14px/10px "ntnxsemi-bold";
 }
 
@@ -258,11 +259,12 @@ button {
   color: #627386;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
-  padding: 20px;
-  padding-top: 40px;
-  grid-row: 2/3;
   align-items: center;
+  /* align-items: flex-end; */
+  padding: 20px;
+  margin-top: 20px;
+  /* padding-top: 40px; */
+  /* align-items: center; */
 }
 
 .divider-2 {

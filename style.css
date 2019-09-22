@@ -284,3 +284,19 @@ button {
 .ntnxtable {
   border: 1px solid #37414B;
 }
+
+.csvtable {
+  background-color: white;
+  border: none;
+}
+
+.csvtable th {
+  font: 500 12px/8px "ntnxmedium";
+  color: #9AA5B5;
+  text-align: left;
+  padding: 15px;
+}
+
+.csvtable td {
+  padding: 15px;
+}

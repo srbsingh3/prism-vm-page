@@ -15,3 +15,8 @@ console.log("test");
 
 
 // Use an array for the sidebar menu items.
+
+
+function toggleFilterBar() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }

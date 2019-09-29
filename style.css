@@ -333,10 +333,16 @@ button:hover {
 .filter-bar {
   position: fixed;
   background-color: salmon;
-  width: 240px;
+  width: 0;
   height: 100%;
+  right: -240px;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
-.filter {
-  position: absolute;
+.main {
+  transition: margin-left .5s;
 }

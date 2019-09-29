@@ -329,14 +329,3 @@ button:hover {
 }
 
 /* Filter Start */
-
-.filter-bar {
-  position: fixed;
-  background-color: salmon;
-  width: 240px;
-  height: 100%;
-}
-
-.filter {
-  position: absolute;
-}

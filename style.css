@@ -122,6 +122,7 @@ input {
 
 .username:hover {
   color: white;
+  cursor: pointer;
 }
 
 .chevron {
@@ -175,6 +176,7 @@ input {
 
 .side-menu:hover {
   color: #22A5F7;
+  cursor: pointer;
 }
 
 .selected {
@@ -225,6 +227,10 @@ button {
   border-radius: 4px;
   padding: 11px 15px 11px 15px;
   margin-right: 10px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .createvm:hover {

@@ -201,7 +201,7 @@ input {
 
 .right {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 4fr 6fr auto;
   grid-template-rows: 32px 16px auto;
   height: 100vh;
   overflow: scroll;
@@ -216,6 +216,7 @@ input {
   display: flex;
   padding: 20px;
   justify-content: flex-end;
+  grid-area: 1/2/2/3;
 }
 
 button {
@@ -261,6 +262,7 @@ button:hover {
   display: flex;
   align-items: center; 
   font: 14px/10px "ntnxsemi-bold";
+  grid-area: 2/1/3/2;
 }
 
 .pagination-2 {
@@ -274,6 +276,7 @@ button:hover {
   margin-top: 30px;
   /* padding-top: 40px; */
   /* align-items: center; */
+  grid-area: 2/2/3/3;
 }
 
 .divider-2 {
@@ -331,18 +334,13 @@ button:hover {
 /* Filter Start */
 
 .filter-bar {
-  position: fixed;
-  background-color: salmon;
-  width: 0;
+  background-color: white;
+  width: 240px;
   height: 100%;
-  right: -240px;
   z-index: 1;
   top: 0;
   right: 0;
   overflow-x: hidden;
-  transition: 0.5s;
-}
-
-.main {
-  transition: margin-left .5s;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  grid-area: 1/3/4/4;
 }

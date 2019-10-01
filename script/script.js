@@ -15,3 +15,14 @@ console.log("test");
 
 
 // Use an array for the sidebar menu items.
+
+function toggleFilter(){
+    filterWidth = $(".filter-bar").width();
+    if (filterWidth == 240){
+        return $(".filter-bar").css({"width":"0"});
+    } else {
+        return $(".filter-bar").css({"width":"240px"});
+    }
+}
+
+
